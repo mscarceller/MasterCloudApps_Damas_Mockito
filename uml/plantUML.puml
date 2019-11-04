@@ -17,7 +17,10 @@ class StartView #orange {
 }
 
 class PlayView  #orange {
-+ interact(PllayController)
++ interact(PlayController)
+}
+
+class CancelView  #orange {
 }
 
 class ResumeView  #orange {
@@ -35,10 +38,12 @@ class PieceView #orange{
 
 StartView ..> StartController
 PlayView ..> PlayController
+CancelView ..> PlayController
 ResumeView ..> ResumeController
 
 View *-down-> StartView
 View *-down-> PlayView
+View *-down-> CancelView
 View *-down-> ResumeView
 StartView *-down-> BoardView
 PlayView *-down-> BoardView
@@ -123,15 +128,8 @@ Square  --> "0..1" Piece
 
 class Piece{
 }
-Piece <|-down- Peon
-Piece <|-down- Dama
+
 Piece *--> Color 
-
-class Peon{
-}
-
-class Dama{
-}
 
 class Color{
 }
