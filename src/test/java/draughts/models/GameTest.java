@@ -18,6 +18,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import draughts.types.Error;
 
 @RunWith(MockitoJUnitRunner.class)
+
 public class GameTest {
 
     @Mock

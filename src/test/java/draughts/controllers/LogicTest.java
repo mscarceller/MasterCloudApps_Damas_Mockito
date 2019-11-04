@@ -19,6 +19,7 @@ public class LogicTest {
     }
 
     @Test
+    @Category(SmokeTest.class)
     public void testGivenLogicWhenGameStartThenStatesFlowIsCorrect() {
         Logic logic = new Logic();
         assertEquals(StateValue.INITIAL, logic.getValueState());
