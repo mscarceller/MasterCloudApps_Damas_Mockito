@@ -6,6 +6,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({
+    draughts.views.AllTests.class,
     draughts.controllers.AllTests.class,
     draughts.models.AllTests.class
 	})

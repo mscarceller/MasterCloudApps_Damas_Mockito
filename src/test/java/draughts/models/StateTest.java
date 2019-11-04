@@ -30,7 +30,7 @@ public class StateTest {
     }
 
     @Test
-    public void givenStateWhenResetStateThenStateValueisINITIAL() {
+    public void testGivenStateWhenResetStateThenStateValueisINITIAL() {
         state.next();
         state.next();
         state.reset();
