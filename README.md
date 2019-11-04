@@ -17,10 +17,10 @@
 
 <center>
 
-![alternativetext](./out/plantUML_UseCases/DiagramaActoresYCasosUso.png)
+![alternativetext](./out/uml/plantUML_UseCases/DiagramaActoresYCasosUso.png)
 
-![alternativetext](./out/plantUML_Contexto/DiagramaContexto.png)
+![alternativetext](./out/uml/plantUML_Contexto/DiagramaContexto.png)
 
-![alternativetext](./out/plantUML/DiseñoModeloVistaControladorConPresentadorDelModeloVistaControlador.png)
+![alternativetext](./out/uml/plantUML/DiseñoModeloVistaControladorConPresentadorDelModeloVistaControlador.png)
 
 </center>
